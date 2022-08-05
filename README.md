@@ -117,7 +117,7 @@ TODO: найти время чтобы описать
 </details>
 
 <details>
-<summary><strong>Интеграция системы DRM системы VERIMATRIX для шифрования потокового видео </strong></summary>
+<summary><strong>Интеграция DRM системы VERIMATRIX для шифрования потокового видео </strong></summary>
 
 TODO: найти время чтобы описать
 
