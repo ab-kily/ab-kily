@@ -7,6 +7,7 @@
 Настоящая моя страсть это технологии! Для меня высшее удовольствие находиться на острие современного IT, развивая себя и компании, где я работаю. 
 
 Кстати, вы можете [нанять меня на работу 🤩](https://career.habr.com/exiper)
+А по любым вопросам пишите в Телеграм: https://t.me/exiper
 
 ## 🏗️ Реализованные проекты
 <details>
@@ -30,10 +31,10 @@
  <br /> <br />
 <b>Используемый стек технологий:</b><br />
 
-[![Kubernetes](https://img.shields.io/badge/IaaS-Kubernetes-yellow)](https://alexanderbogdanov.site)
-[![Docker](https://img.shields.io/badge/Tools-Docker-black)](https://alexanderbogdanov.site)
-[![Docker-compose](https://img.shields.io/badge/Tools-Docker%20compose-black)](https://alexanderbogdanov.site)
-[![Helm](https://img.shields.io/badge/Tools-Helm-black)](https://alexanderbogdanov.site)
+[![Kubernetes](https://img.shields.io/badge/IaaS-Kubernetes-yellow)](https://github.com/ab-kily)
+[![Docker](https://img.shields.io/badge/Tools-Docker-black)](https://github.com/ab-kily)
+[![Docker-compose](https://img.shields.io/badge/Tools-Docker%20compose-black)](https://github.com/ab-kily)
+[![Helm](https://img.shields.io/badge/Tools-Helm-black)](https://github.com/ab-kily)
 
 </details>
 
@@ -42,11 +43,11 @@
 <br />
 <img src="assets/chesny_znak.jpg" alt=""/>
 <br />
-🧐 <b>Кейс:</b> Бизнес, в котором я работал, помимо всего прочего, продавал верхнюю одежду. С 1-го января 2021 года,  в соответствии с законодательством, такая одежда в обязательном порядке должна маркироваться специальными кодами формата DataMatrix, эмитировать которые поручено единому оператору - Центру Развития Перспективных Технологий (ЦРПТ), а сама система маркировки называется [Честный Знак](https://честныйзнак.рф). <br /><br />
+🧐 <b>Кейс:</b> Бизнес, в котором я работал, помимо всего прочего, продавал верхнюю одежду. С 1-го января 2021 года,  в соответствии с законодательством, такая одежда в обязательном порядке должна маркироваться специальными кодами формата DataMatrix, эмитировать которые поручено единому оператору - Центру Развития Перспективных Технологий (ЦРПТ), а сама система маркировки называется Честный Знак. <br /><br />
 ❔ <b>Проблема:</b> Проблема заключалась в том, что данные коды являются аналогом акцизных марок для алкоголя, и учет должен производиться как на входе (при приёмке или возврате товара от покупателя), так и на выходе (при продаже или возврату поставщику). Учет должен быть стожайший, т.к., помимо штрафов, система накладывала множество ограничений на движение неучтенных кодов маркировки между организациями по линии продавец-поставщик или продавец-покупатель. Кроме этого, наличие кодов и необходимости дополнительного сканирования этого кода приёмщиками и продавцами на каждом из этапов движения товара вело к увеличению времени сборки заказов, что печалило руководство, а оно печалило нас...  Соответственно, учет этих кодов без использования какой-либо автоматизации являлся абсолютно нереалистичным. Ситуация усугублялась тем, что рынке не было приемлемых решений по маркировке товаров, т.к. сам рынок только создавался. <br /><br />
 ➡️ <b>Решение:</b>Изучив доступные на рынке решения, мы пришли к выводу, что они нам не подходят и стали думать над собственным решением. Изучив API множества подсистем системы Честный Знак (а подсистем было много - TRUE API, API ГИС МТ, СУЗ API и ряд других), они показались нам достаточно зрелыми и юзабельными (что не часто для API гос. компаний), и мы решили сделать собственное решение, автоматизирующее работу с данными кодами. Были разработаны:
 <ul>
-	<li>[PHP-библиотека](https://github.com/kilylabs/true-api-cli) для взаимодействием с API Честный Знак</li>
+	<li> PHP-библиотека (https://github.com/kilylabs/true-api-cli) для взаимодействием с API Честный Знак</li>
 	<li>Интеграция между нашей складской WMS-системой и Честный Знак</li>
 	<li>Закуплено оборудование для печати маркировки</li>
 </ul><br /><br />
@@ -54,23 +55,36 @@
 <br /><br />
 <b>Используемый стек технологий:</b><br />
 
-[![PHP](https://img.shields.io/badge/Lang-PHP-blue)](https://alexanderbogdanov.site)
-[![MySQL](https://img.shields.io/badge/DB-MySQL-orange)](https://alexanderbogdanov.site)
-[![Yii](https://img.shields.io/badge/Framework-Yii-green)](https://alexanderbogdanov.site)
+[![PHP](https://img.shields.io/badge/Lang-PHP-blue)](https://github.com/ab-kily)
+[![MySQL](https://img.shields.io/badge/DB-MySQL-orange)](https://github.com/ab-kily)
+[![Yii](https://img.shields.io/badge/Framework-Yii-green)](https://github.com/ab-kily)
 
 </details>
 
 <details>
 <summary><strong>Разработка и внедрение PIM (Product Information Management) системы</strong></summary>
-
-Для более гибкого управления ассортиментом и ассортиментной политикой необходимо было вндрить систему класса Product Information Management. Проведя исследования существующих систем, ни одна из них не удовлетворяла необходимым критериям
-(в основном, проблема была в стомости решения), и было решено разработать систему самостоятельно. В рамках создаиня этой системы было реализовано основные концепции PIM-системы, которые позволили централизовать хранение всей информации о продукции, поддерживать её в актуальном состоянии, а также ввести понятие "процент заполнения карточки товара".
+<br />
+<img src="assets/pimcore.jpg" alt=""/>
+<br />
+🧐 <b>Кейс:</b> Бизнес, в котором я работал, одной из первоочередных задач ставил качество контента, размещенного на сайтах (карточки товаров) и в печатных материалах. Однако, когда речь идет об одежде (а именно она составляла наибольший портфель заказов в компании), которая очень вариативна по своей природе (одной модели может соответствовать множество вариаций цветов, и размеров), и были определенные сложности с тем, чтобы обеспечивать должное качество и заполненность карточек товаров.<br /><br />
+❔ <b>Проблема:</b> Стандартные техники работы с контентом, такие как хранение всё на каком-нибудь корпоративном файл-сервере и ведение карточек в Excel-е были очень не удобны (большая вероятность ошибиться), и нам было поручено найти  подходящее решение. Первым делом, изучив проблему, для более гибкого управления контентом было решено попробовать использовать систему класса PIM (Product Information Management). Изучали 2 системы - Akeneo и PIMcore. Выбор пал на них по очень простым причинам - они OSS (хотя и имели Enterprise версии), и обе имели развитые возможности по работе с одеждой. Проведя исследования этих систем, как часто это бывает с OSS системами, качество оставляло желать лучшего. <br /><br />
+➡️ <b>Решение:</b> Отправив несколько багрепортов и даже пару пул-реквестов, и получив стандартную отписку, мол, покупайте Enterprise версию и будет вам счастье, нами было решено разработать подобную систему самостоятельно. Были реализованы основные необходимые нам функции PIM-системы, в частности:
+<ul>
+	<li>Централизация информации о контенте</li>
+	<li>Поддержка CRUD-операций для всего спектра информации о товаре (текст, характеристики, картинки, документация, связи между товарами и др.)</li>
+	<li>Workflow для заполнения карточки товара</li>
+	<li>KPIs по статусу заполненности карточек товара</li>
+	<li>Поддержка операцией импорта, также и экспорта контента (GraphQL)</li>
+</ul><br /><br />
+✅ <b>Результат:</b> По результату внедрения этой системы на горизонте 6-и месяцев качество контента заметно улучшилось, что положительно сказалось на выручке компании.
 
 Используемый стек технологий:
-[![Angular](https://img.shields.io/badge/Framework-Angular-green)](https://alexanderbogdanov.site)
-[![Laravel](https://img.shields.io/badge/Framework-Laravel-green)](https://alexanderbogdanov.site)
-[![MySQL](https://img.shields.io/badge/DB-MySQL-orange)](https://alexanderbogdanov.site)
-[![PHP](https://img.shields.io/badge/Lang-PHP-blue)](https://alexanderbogdanov.site)
+[![Angular](https://img.shields.io/badge/Framework-Angular-green)](https://github.com/ab-kily)
+[![Symfony](https://img.shields.io/badge/Framework-Symfony-green)](https://github.com/ab-kily)
+[![Symfony](https://img.shields.io/badge/Framework-Yii-green)](https://github.com/ab-kily)
+[![MySQL](https://img.shields.io/badge/DB-MySQL-orange)](https://github.com/ab-kily)
+[![GraphQL](https://img.shields.io/badge/DB-GraphQL-orange)](https://github.com/ab-kily)
+[![PHP](https://img.shields.io/badge/Lang-PHP-blue)](https://github.com/ab-kily)
 
 </details>
 
@@ -132,18 +146,18 @@ TODO: найти время чтобы описать
 
 
 ## 💼 Скилы
-[![C](https://img.shields.io/badge/Lang-C-blue)](https://alexanderbogdanov.site) [![GO](https://img.shields.io/badge/Lang-GO-blue)](https://alexanderbogdanov.site) [![JavaScript](https://img.shields.io/badge/Lang-JavaScript-blue)](https://alexanderbogdanov.site) [![Linux shell](https://img.shields.io/badge/Lang-Linix%20sehll-blue)](https://alexanderbogdanov.site) [![Python](https://img.shields.io/badge/Lang-Python-blue)](https://alexanderbogdanov.site) [![PHP](https://img.shields.io/badge/Lang-PHP-blue)](https://alexanderbogdanov.site) [![TypeScript](https://img.shields.io/badge/Lang-TypeScript-blue)](https://alexanderbogdanov.site) [![SQL](https://img.shields.io/badge/Lang-SQL-blue)](https://alexanderbogdanov.site)
+[![C](https://img.shields.io/badge/Lang-C-blue)](https://github.com/ab-kily) [![GO](https://img.shields.io/badge/Lang-GO-blue)](https://github.com/ab-kily) [![JavaScript](https://img.shields.io/badge/Lang-JavaScript-blue)](https://github.com/ab-kily) [![Linux shell](https://img.shields.io/badge/Lang-Linix%20sehll-blue)](https://github.com/ab-kily) [![Python](https://img.shields.io/badge/Lang-Python-blue)](https://github.com/ab-kily) [![PHP](https://img.shields.io/badge/Lang-PHP-blue)](https://github.com/ab-kily) [![TypeScript](https://img.shields.io/badge/Lang-TypeScript-blue)](https://github.com/ab-kily) [![SQL](https://img.shields.io/badge/Lang-SQL-blue)](https://github.com/ab-kily)
 
-[![MongoDB](https://img.shields.io/badge/DB-MongoDB-orange)](https://alexanderbogdanov.site) [![MySQL](https://img.shields.io/badge/DB-MySQL-orange)](https://alexanderbogdanov.site) [![Oracle](https://img.shields.io/badge/DB-Oracle-orange)](https://alexanderbogdanov.site) [![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-orange)](https://alexanderbogdanov.site) [![Redis](https://img.shields.io/badge/DB-Redis-orange)](https://alexanderbogdanov.site)
+[![MongoDB](https://img.shields.io/badge/DB-MongoDB-orange)](https://github.com/ab-kily) [![MySQL](https://img.shields.io/badge/DB-MySQL-orange)](https://github.com/ab-kily) [![Oracle](https://img.shields.io/badge/DB-Oracle-orange)](https://github.com/ab-kily) [![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-orange)](https://github.com/ab-kily) [![Redis](https://img.shields.io/badge/DB-Redis-orange)](https://github.com/ab-kily)  [![GraphQL](https://img.shields.io/badge/DB-GraphQL)](https://github.com/ab-kily) 
 
-[![Angular](https://img.shields.io/badge/Framework-Angular-green)](https://alexanderbogdanov.site) [![Flask](https://img.shields.io/badge/Framework-Flask-green)](https://alexanderbogdanov.site) [![Laravel](https://img.shields.io/badge/Framework-Laravel-green)](https://alexanderbogdanov.site) [![Ionic](https://img.shields.io/badge/Framework-Ionic-green)](https://alexanderbogdanov.site) [![Symfony](https://img.shields.io/badge/Framework-Symfony-green)](https://alexanderbogdanov.site) [![Yii](https://img.shields.io/badge/Framework-Yii-green)](https://alexanderbogdanov.site)
+[![Angular](https://img.shields.io/badge/Framework-Angular-green)](https://github.com/ab-kily) [![Flask](https://img.shields.io/badge/Framework-Flask-green)](https://github.com/ab-kily) [![Laravel](https://img.shields.io/badge/Framework-Laravel-green)](https://github.com/ab-kily) [![Ionic](https://img.shields.io/badge/Framework-Ionic-green)](https://github.com/ab-kily) [![Symfony](https://img.shields.io/badge/Framework-Symfony-green)](https://github.com/ab-kily) [![Yii](https://img.shields.io/badge/Framework-Yii-green)](https://github.com/ab-kily)
 
-[![RabbitMQ](https://img.shields.io/badge/Message%20brokers-RabbitMQ-red)](https://alexanderbogdanov.site)
+[![RabbitMQ](https://img.shields.io/badge/Message%20brokers-RabbitMQ-red)](https://github.com/ab-kily)
 
-[![Ansible](https://img.shields.io/badge/IaaS-Ansible-yellow)](https://alexanderbogdanov.site) [![Kubernetes](https://img.shields.io/badge/IaaS-Kubernetes-yellow)](https://alexanderbogdanov.site) [![Terraform](https://img.shields.io/badge/IaaS-Terraform-yellow)](https://alexanderbogdanov.site)
+[![Ansible](https://img.shields.io/badge/IaaS-Ansible-yellow)](https://github.com/ab-kily) [![Kubernetes](https://img.shields.io/badge/IaaS-Kubernetes-yellow)](https://github.com/ab-kily) [![Terraform](https://img.shields.io/badge/IaaS-Terraform-yellow)](https://github.com/ab-kily)
 
-[![Docker](https://img.shields.io/badge/Tools-Docker-black)](https://alexanderbogdanov.site) [![Docker-compose](https://img.shields.io/badge/Tools-Docker%20compose-black)](https://alexanderbogdanov.site) [![Composer](https://img.shields.io/badge/Tools-Composer-black)](https://alexanderbogdanov.site) [![Pip](https://img.shields.io/badge/Tools-Pip-black)](https://alexanderbogdanov.site) [![npm](https://img.shields.io/badge/Tools-Npm-black)](https://alexanderbogdanov.site) [![Helm](https://img.shields.io/badge/Tools-Helm-black)](https://alexanderbogdanov.site)
+[![Docker](https://img.shields.io/badge/Tools-Docker-black)](https://github.com/ab-kily) [![Docker-compose](https://img.shields.io/badge/Tools-Docker%20compose-black)](https://github.com/ab-kily) [![Composer](https://img.shields.io/badge/Tools-Composer-black)](https://github.com/ab-kily) [![Pip](https://img.shields.io/badge/Tools-Pip-black)](https://github.com/ab-kily) [![npm](https://img.shields.io/badge/Tools-Npm-black)](https://github.com/ab-kily) [![Helm](https://img.shields.io/badge/Tools-Helm-black)](https://github.com/ab-kily)
 
-[![Yandex.Cloud](https://img.shields.io/badge/Cloud-Yandex.Cloud-white)](https://alexanderbogdanov.site) [![AWS](https://img.shields.io/badge/Cloud-AWS-white)](https://alexanderbogdanov.site)
+[![Yandex.Cloud](https://img.shields.io/badge/Cloud-Yandex.Cloud-white)](https://github.com/ab-kily) [![AWS](https://img.shields.io/badge/Cloud-AWS-white)](https://github.com/ab-kily)
 
 
