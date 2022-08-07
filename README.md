@@ -80,7 +80,6 @@
  <br /> <br />
 
 <b>Используемый стек технологий:</b><br />
-
 [![Angular](https://img.shields.io/badge/Framework-Angular-green)](https://github.com/ab-kily)
 [![Symfony](https://img.shields.io/badge/Framework-Symfony-green)](https://github.com/ab-kily)
 [![Symfony](https://img.shields.io/badge/Framework-Yii-green)](https://github.com/ab-kily)
