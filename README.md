@@ -77,8 +77,10 @@
 	<li>Поддержка операцией импорта, также и экспорта контента (GraphQL)</li>
 </ul><br /><br />
 ✅ <b>Результат:</b> По результату внедрения этой системы на горизонте 6-и месяцев качество контента заметно улучшилось, что положительно сказалось на выручке компании.
+ <br /> <br />
 
-Используемый стек технологий:
+<b>Используемый стек технологий:</b><br />
+
 [![Angular](https://img.shields.io/badge/Framework-Angular-green)](https://github.com/ab-kily)
 [![Symfony](https://img.shields.io/badge/Framework-Symfony-green)](https://github.com/ab-kily)
 [![Symfony](https://img.shields.io/badge/Framework-Yii-green)](https://github.com/ab-kily)
