@@ -35,6 +35,8 @@
 [![Docker](https://img.shields.io/badge/Tools-Docker-black)](https://github.com/ab-kily)
 [![Docker-compose](https://img.shields.io/badge/Tools-Docker%20compose-black)](https://github.com/ab-kily)
 [![Helm](https://img.shields.io/badge/Tools-Helm-black)](https://github.com/ab-kily)
+[![Yandex.Cloud](https://img.shields.io/badge/Cloud-Yandex.Cloud-white)](https://github.com/ab-kily)
+[![Virtuozzo](https://img.shields.io/badge/Cloud-Virtuozzo-white)](https://github.com/ab-kily)
 
 </details>
 
@@ -159,6 +161,6 @@ TODO: найти время чтобы описать
 
 [![Docker](https://img.shields.io/badge/Tools-Docker-black)](https://github.com/ab-kily) [![Docker-compose](https://img.shields.io/badge/Tools-Docker%20compose-black)](https://github.com/ab-kily) [![Composer](https://img.shields.io/badge/Tools-Composer-black)](https://github.com/ab-kily) [![Pip](https://img.shields.io/badge/Tools-Pip-black)](https://github.com/ab-kily) [![npm](https://img.shields.io/badge/Tools-Npm-black)](https://github.com/ab-kily) [![Helm](https://img.shields.io/badge/Tools-Helm-black)](https://github.com/ab-kily)
 
-[![Yandex.Cloud](https://img.shields.io/badge/Cloud-Yandex.Cloud-white)](https://github.com/ab-kily) [![AWS](https://img.shields.io/badge/Cloud-AWS-white)](https://github.com/ab-kily)
+[![Yandex.Cloud](https://img.shields.io/badge/Cloud-Yandex.Cloud-white)](https://github.com/ab-kily) [![AWS](https://img.shields.io/badge/Cloud-AWS-white)](https://github.com/ab-kily) [![Virtuozzo](https://img.shields.io/badge/Cloud-Virtuozzo-white)](https://github.com/ab-kily)
 
 
