@@ -146,6 +146,27 @@ TODO: найти время чтобы описать
 </details>
 
 <details>
+<summary><strong>Мобильное приложение Pilates Time (iOS, Android)</strong></summary>
+
+TODO: найти время чтобы описать
+
+</details>
+
+
+<details>
+<summary><strong>Мобильное приложение BASK+ (iOS, Android)</strong></summary>
+
+TODO: найти время чтобы описать
+
+</details>
+<details>
+<summary><strong>Система верификации на основе NFC-меток</strong></summary>
+
+TODO: найти время чтобы описать
+
+</details>
+<details>
+
 <summary><strong>CRM</strong></summary>
 
 TODO: найти время чтобы описать
@@ -160,7 +181,7 @@ TODO: найти время чтобы описать
 </details>
 
 <details>
-<summary><strong>Интеграция аналитики ROISTAT</strong></summary>
+<summary><strong>Интеграция сквозной аналитики ROISTAT</strong></summary>
 
 TODO: найти время чтобы описать
 
